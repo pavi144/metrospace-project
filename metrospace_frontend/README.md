@@ -75,3 +75,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 //TABLE NAME : SELECT * FROM consultation_consultation;
 
 //POSTGRES PASSWORD = postgres123
+
+
+
+
+//deployement frontend== metrospace-project.vercel.app
+
+backend ===metrospace-project-1.onrender.com", "localhost", "127.0.0.1"
