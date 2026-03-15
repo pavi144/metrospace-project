@@ -3,6 +3,8 @@ Django settings for metrospace_backend project.
 """
 
 from pathlib import Path
+import dj_database_url
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -88,23 +90,26 @@ WSGI_APPLICATION = 'metrospace_backend.wsgi.application'
 
 DATABASES = {
 
-    'default': {
-
-        'ENGINE': 'django.db.backends.postgresql',
-
-        'NAME': 'metrospace_db',
-
-        'USER': 'metro_user',
-
-        'PASSWORD': 'metro123',
-
-        'HOST': '127.0.0.1',
-
-        'PORT': '5432',
-
-    }
-
+    'default': dj_database_url.config(
+        default=os.environ.get("DATABASE_URL")
+    )
 }
+
+        # 'ENGINE': 'django.db.backends.postgresql',
+
+        # 'NAME': 'metrospace_db',
+
+        # 'USER': 'metro_user',
+
+        # 'PASSWORD': 'metro123',
+
+        # 'HOST': '127.0.0.1',
+
+        # 'PORT': '5432',
+
+    
+
+
 
 
 # PASSWORD VALIDATION
