@@ -89,13 +89,10 @@ WSGI_APPLICATION = 'metrospace_backend.wsgi.application'
 # DATABASE (PostgreSQL)
 
 DATABASES = {
-
-    'default': dj_database_url.config(
-        default=os.environ.get("postgresql://metrospace_user:lwyCOEtnHQzcM1CoDvkxnPIUpMXQAy3m@dpg-d6r83on5r7bs738s55g0-a/metrospace")
+    "default": dj_database_url.config(
+        default="sqlite:///db.sqlite3"
     )
-}
-
-        # 'ENGINE': 'django.db.backends.postgresql',
+}      # 'ENGINE': 'django.db.backends.postgresql',
 
         # 'NAME': 'metrospace_db',
 
@@ -161,5 +158,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = [
      "https://metrospace-project.vercel.app"
 ]
-
-CORS_ALLOW_ALL_ORIGINS = "True"
