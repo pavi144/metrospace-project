@@ -1342,25 +1342,35 @@ height:300px;
 
 /* CONSULTATION SECTION */
 
-#consultation{
-padding:70px 6%;
-}
+/* ===== MOBILE FORM FIX ===== */
 
 .consultation-wrapper{
-gap:30px;
+grid-template-columns:1fr;
+gap:25px;
+padding:0;
 }
 
 .consult-form{
-padding:25px;
+width:100%;
+max-width:100%;
+padding:20px;
+margin:0 auto;
 }
 
-.consult-info h2{
-font-size:26px;
+.consult-info{
+width:100%;
 }
 
 .consult-form input,
 .consult-form textarea{
+width:100%;
 font-size:16px;
+}
+
+#consultation{
+padding:70px 5%;
+}
+
 }
 
 /* CONTACT BLOCK */
