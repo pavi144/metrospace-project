@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'metrospace_backend.wsgi.application'
 DATABASES = {
 
     'default': dj_database_url.config(
-        default=os.environ.get("DATABASE_URL")
+        default=os.environ.get("postgresql://metrospace_user:lwyCOEtnHQzcM1CoDvkxnPIUpMXQAy3m@dpg-d6r83on5r7bs738s55g0-a/metrospace")
     )
 }
 
