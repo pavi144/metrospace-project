@@ -19,7 +19,7 @@ SECRET_KEY = 'django-insecure-!gu)c&wmnlm=j*8gq*j!(1i32)jcs_^8-(6ug!(0#q%)19yh*n
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["metrospace-project-1.onrender.com", "localhost", "127.0.0.1"]
 
 
 # APPLICATIONS
