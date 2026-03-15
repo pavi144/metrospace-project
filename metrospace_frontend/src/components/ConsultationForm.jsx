@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import axios from "axios"
+import API from "../services/api";
 
 function ConsultationForm(){
 
@@ -56,7 +57,7 @@ setLoading(true)
 
 try{
 
-await axios.post("https://metrospace-project-1.onrender.com/api/consultation/",form)
+await axios.post("/consultation/",form)
 
 setSuccess(true)
 
