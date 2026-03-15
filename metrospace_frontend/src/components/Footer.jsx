@@ -30,8 +30,8 @@ We design spaces that reflect comfort, luxury and creativity.
 
 <div className="footer-contact">
 
-<p><FaPhoneAlt/> +91 9876543210</p>
-<p><FaEnvelope/> info@metrospace.com</p>
+<p><FaPhoneAlt/> +91 6380820738</p>
+<p><FaEnvelope/> metrospace4@gmail.com</p>
 <p><FaMapMarkerAlt/> Chennai, Tamil Nadu</p>
 
 </div>
@@ -41,7 +41,7 @@ We design spaces that reflect comfort, luxury and creativity.
 <a href="/"><FaFacebookF/></a>
 <a href="/"><FaInstagram/></a>
 <a href="/"><FaLinkedinIn/></a>
-<a href="https://wa.me/919876543210"><FaWhatsapp/></a>
+<a href="https://wa.me/916380820738"><FaWhatsapp/></a>
 
 </div>
 
