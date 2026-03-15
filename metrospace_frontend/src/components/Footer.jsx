@@ -38,9 +38,9 @@ We design spaces that reflect comfort, luxury and creativity.
 
 <div className="footer-social">
 
-<a href="#"><FaFacebookF/></a>
-<a href="#"><FaInstagram/></a>
-<a href="#"><FaLinkedinIn/></a>
+<a href="/"><FaFacebookF/></a>
+<a href="/"><FaInstagram/></a>
+<a href="/"><FaLinkedinIn/></a>
 <a href="https://wa.me/919876543210"><FaWhatsapp/></a>
 
 </div>
