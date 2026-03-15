@@ -4,6 +4,13 @@ function Navbar(){
 
 const [menuOpen,setMenuOpen] = useState(false)
 
+const goHome = () => {
+  const section = document.getElementById("hero");
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 const toggleMenu = () =>{
 setMenuOpen(!menuOpen)
 
@@ -25,7 +32,7 @@ return(
 
 <nav className="nav">
 
-<div className="brand">
+<div className="brand" onClick={goHome}>
 <img src="/images/logo.jpeg" alt="logo"/>
 <div className="brand-text">
 <h1>Metrospace</h1>

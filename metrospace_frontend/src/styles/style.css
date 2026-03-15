@@ -142,6 +142,7 @@ transform:rotate(-45deg) translate(5px,-5px);
   font-size: 20px;
   letter-spacing: 3px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .brand-text span {
@@ -1284,5 +1285,101 @@ display:none;
 
 }
 
+/* =========================
+   EXTRA MOBILE FIXES
+========================= */
 
+@media (max-width:600px){
+
+/* NAVBAR */
+.nav{
+padding:15px 6%;
+}
+
+/* HERO SECTION */
+
+.hero{
+padding:40px 6%;
+}
+
+.hero-text h1{
+font-size:30px;
+}
+
+.hero-text p{
+font-size:14px;
+}
+
+.hero-stats{
+gap:20px;
+}
+
+.hero-image img{
+height:300px;
+}
+
+/* ABOUT */
+
+.about{
+padding:70px 6%;
+}
+
+/* PROCESS */
+
+.process-section{
+padding:70px 6%;
+}
+
+/* PROJECTS */
+
+.projects-section{
+padding:70px 6%;
+}
+
+.project-large img{
+height:300px;
+}
+
+/* CONSULTATION SECTION */
+
+#consultation{
+padding:70px 6%;
+}
+
+.consultation-wrapper{
+gap:30px;
+}
+
+.consult-form{
+padding:25px;
+}
+
+.consult-info h2{
+font-size:26px;
+}
+
+.consult-form input,
+.consult-form textarea{
+font-size:16px;
+}
+
+/* CONTACT BLOCK */
+
+.contact-item{
+gap:10px;
+}
+
+.contact-icon{
+width:34px;
+height:34px;
+font-size:18px;
+}
+
+/* FOOTER */
+
+.footer{
+padding:60px 6% 20px;
+}
+
+}
 
