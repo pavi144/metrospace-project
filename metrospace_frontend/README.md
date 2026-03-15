@@ -82,3 +82,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 //deployement frontend== metrospace-project.vercel.app
 
 backend ===metrospace-project-1.onrender.com", "localhost", "127.0.0.1"
+
+
+
+
+admin details
+
+username:Harikrishna
+password:Hari@123
+
+email:metrospace4@gmail.com
