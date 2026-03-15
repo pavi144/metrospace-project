@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import axios from "axios"
+import API from "../services/api";
 
 
 function ConsultationForm(){
@@ -57,7 +57,7 @@ setLoading(true)
 
 try{
 
-await axios.post("/consultation/",form)
+await API.post("/consultation/",form)
 
 setSuccess(true)
 
