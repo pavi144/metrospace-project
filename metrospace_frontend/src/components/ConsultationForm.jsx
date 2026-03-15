@@ -56,7 +56,7 @@ setLoading(true)
 
 try{
 
-await axios.post("http://127.0.0.1:8000/api/consultation/",form)
+await axios.post("https://metrospace-project-1.onrender.com/api",form)
 
 setSuccess(true)
 
