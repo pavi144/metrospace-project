@@ -19,7 +19,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 SECRET_KEY = 'django-insecure-!gu)c&wmnlm=j*8gq*j!(1i32)jcs_^8-(6ug!(0#q%)19yh*n'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["metrospace-project-1.onrender.com", "localhost", "127.0.0.1"]
 
@@ -155,6 +155,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS SETTINGS (Allow React frontend)
 
-CORS_ALLOWED_ORIGINS = [
-    "https://metrospace-project.vercel.app",
-]
+CORS_ALLOW_ALL_ORIGINS = True
