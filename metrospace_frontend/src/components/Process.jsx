@@ -39,7 +39,7 @@ function Approach() {
 
           <div className="process-number">02</div>
 
-          <img src="/images/2.jpg" alt="Planning" />
+          <img src="/images/8.jpg" alt="Planning" />
 
           <h4>Planning</h4>
 
@@ -55,7 +55,7 @@ function Approach() {
 
           <div className="process-number">03</div>
 
-          <img src="/images/3.jpg" alt="Execution" />
+          <img src="/images/7.jpg" alt="Execution" />
 
           <h4>Execution</h4>
 
@@ -71,7 +71,7 @@ function Approach() {
 
           <div className="process-number">04</div>
 
-          <img src="/images/4.jpg" alt="Delivery" />
+          <img src="/images/9.jpg" alt="Delivery" />
 
           <h4>Final Delivery</h4>
 

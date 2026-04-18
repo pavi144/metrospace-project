@@ -57,7 +57,7 @@ setLoading(true)
 
 try{
 
-await API.post("/consultation/",form)
+await API.post("/api/consultation/",form)
 
 setSuccess(true)
 
@@ -74,6 +74,7 @@ setSuccess(false)
 },3000)
 
 }catch(err){
+    
 
 if(err.response?.data?.phone){
 setError(err.response.data.phone[0])
@@ -138,7 +139,7 @@ contact you within 24 hours.
 <span className="contact-icon">📞</span>
 <div>
 <strong>Call Us</strong>
-<p>+91 98765 43210</p>
+<p>+91 6380820738 / +91 9994589099</p>
 </div>
 </div>
 
@@ -146,7 +147,7 @@ contact you within 24 hours.
 <span className="contact-icon">✉️</span>
 <div>
 <strong>Email</strong>
-<p>info@metrospace.com</p>
+<p>infometrospace@gmail.com</p>
 </div>
 </div>
 

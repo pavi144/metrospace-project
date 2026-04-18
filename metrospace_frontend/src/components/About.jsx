@@ -72,7 +72,7 @@ const aboutRef = useRef(null)
       <div className="about-grid">
 
         <div className="about-image">
-          <img src="/images/1.jpg" alt="Interior"/>
+          <img src="/images/6.jpg" alt="Interior"/>
         </div>
 
         <div className="about-content">
